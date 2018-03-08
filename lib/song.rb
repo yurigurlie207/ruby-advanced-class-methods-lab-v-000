@@ -59,7 +59,7 @@ class Song
     artist_name = name.split("-")[0].strip
     songName = name.split("-")[1].split(".")[0].strip
     self.create_by_name(songName,artist_name)
-    self.artist_name = name.split("-")[0].strip
+
   end
 
 
