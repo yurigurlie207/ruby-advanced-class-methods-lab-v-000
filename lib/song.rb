@@ -67,7 +67,8 @@ class Song
     self.create_by_name(songName,artist_name)
   end
 
-
+  def self.destroy_all
+  end
 
 
 end
