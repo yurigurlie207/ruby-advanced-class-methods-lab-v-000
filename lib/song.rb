@@ -10,7 +10,7 @@ class Song
     self.class.all << self
   end
 
-  def self.create()
+  def self.create(name,artist_name)
     song = self.new
     song.name = "new"
     song.artist_name = "new2"
@@ -40,7 +40,7 @@ class Song
     }
   end
 
-  def self.find_or_create_by_name(name,artist_name)
+  def self.find_or_create_by_name(name)
 
     if self.find_by_name(name)
       self.find_by_name(name)
