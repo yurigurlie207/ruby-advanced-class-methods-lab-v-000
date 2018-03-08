@@ -55,8 +55,8 @@ class Song
   end
 
   def self.new_from_filename(name)
-    string1 = name.split("-")
-    
+    songName = name.split("-")[1].split(".")
+
   end
 
 
