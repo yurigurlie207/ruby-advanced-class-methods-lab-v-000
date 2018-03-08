@@ -51,9 +51,12 @@ class Song
 
   def self.alphabetical
     uniqueArray = self.all.sort_by { |songObj| songObj.name }
-
     uniqueArray.uniq
   end
+
+  def self.new_from_filename(
+  end
+    )
   
 
 end
